@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="naturepage.css">
+    <title>Natural Page</title>
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+    background-color: #9e5400;
+    
+}
+.socbar{
+
+    height: 12vh;
+    background-color: #999966;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url("nblur2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    
+}
+h1{
+    padding: 15px;
+    color: #00ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+  
+}
+
+li{
+    list-style-type: none;
+    padding: 5px;
+   
+}
+li > a{
+    text-decoration: none;
+    display: inline-block;
+    color: #00ffff;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+  
+}
+li > a:hover{
+    opacity: 0.8;
+    border-bottom: 1px solid #00ffff;
+    border-top: 1px solid #00ffff;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    
+}
+nav{
+    display: flex;
+    justify-content:right;
+    margin-top: -50px;
+    margin-right: 20px;
+   
+    
+    
+}
+header{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    width: 80vw;
+    height: 26vh;
+    background-color: #999966;
+    color: #00ffff ;
+    border-bottom-left-radius: 10vh;
+    border-bottom-right-radius: 10vh;
+    background-image: url("nblur5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+.basliq{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 45px;
+    font-family: 'Bree Serif', serif;
+}
+
+section{
+  
+    background-color: #c2945f;
+    height: 3050px;
+    width: 75vw;
+    margin-top: 165px;
+    margin: 165px auto 0 auto ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 50px 100px 50px 100px;
+  
+}
+
+
+ul{
+    display: flex;
+    
+}
+.tamres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+img{
+    width: 350px;
+    height: 350px;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.res1{
+   
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    float: left;
+    margin-bottom: 50px;
+}
+.res1 > p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    color:teal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.dvmlink{
+   font-size: 1.2rem;
+   display: inline-block;
+   text-decoration: none;
+   color: green;
+}
+footer{
+    height: 10vh;
+    background-color: #999966;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url("nblur2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    color: #00ffff;
+    text-align: center;
+    padding-top:20px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media(max-width:600px){
+
+.socbar{
+        height: 20vh;
+    }
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    position: absolute;
+    left: 50%;
+    top: 27.5%;
+    transform: translate(-50%,-50%);
+    width: 80vw;
+    height: 15vh;
+    background-color: #999966;
+    color: #00ffff ;
+    border-bottom-left-radius: 10vh;
+    border-bottom-right-radius: 10vh;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+.basliq{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Bree Serif', serif;
+
+}
+.tamres{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+section{
+    height: 6050px;
+    margin-top: 100px;
+    width: 85vw;
+}
+
+}
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="socbar">
+            <h1>Natural Page</h1>
+            <nav clas="navbar">
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+
+            </nav>
+
+
+        </div>
+        <header>
+
+            <p class="basliq">Some Pictures Of Nature</p>
+
+        </header>
+        <main>
+            <div>
+                <section>
+                    <div class="tamres">
+                        <div class="res1">
+
+                            <img src="np1.jpg" alt="Nature Photo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius.</p>
+                            <a class="dvmlink" href="naturepage.html">Continue</a>
+                        </div>
+                        <div class="res1">
+
+                            <img src="np2.jpg" alt="Nature Photo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius.</p>
+                            <a class="dvmlink" href="naturepage.html">Continue</a>
+                        </div>
+                        <div class="res1">
+
+                            <img src="np3.jpg" alt="Nature Photo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius.</p>
+                            <a class="dvmlink" href="naturepage.html">Continue</a>
+                        </div>
+                        <div class="res1">
+
+                            <img src="np4.jpg" alt="Nature Photo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius.</p>
+                            <a class="dvmlink" href="naturepage.html">Continue</a>
+                        </div>
+                        <div class="res1">
+
+                            <img src="np5.jpg" alt="Nature Photo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius.</p>
+                            <a class="dvmlink" href="naturepage.html">Continue</a>
+                        </div>
+                        <div class="res1">
+
+                            <img src="np6.jpg" alt="Nature Photo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius.</p>
+                            <a class="dvmlink" href="naturepage.html">Continue</a>
+                        </div>
+                        <div class="res1">
+
+                            <img src="np7.jpg" alt="Nature Photo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius.</p>
+                            <a class="dvmlink" href="naturepage.html">Continue</a>
+                        </div>
+                        <div class="res1">
+
+                            <img src="np8.jpg" alt="Nature Photo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius.</p>
+                            <a class="dvmlink" href="naturepage.html">Continue</a>
+                        </div>
+                        <div class="res1">
+
+                            <img src="np9.jpg" alt="Nature Photo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius.</p>
+                            <a class="dvmlink" href="naturepage.html">Continue</a>
+                        </div>
+                        <div class="res1">
+
+                            <img src="np10.jpg" alt="Nature Photo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius.</p>
+                            <a class="dvmlink" href="naturepage.html">Continue</a>
+                        </div>
+                        <div class="res1">
+
+                            <img src="np11.jpg" alt="Nature Photo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius.</p>
+                            <a class="dvmlink" href="naturepage.html">Continue</a>
+                        </div>
+                        <div class="res1">
+
+                            <img src="np12.jpg" alt="Nature Photo">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eius.</p>
+                            <a class="dvmlink" href="naturepage.html">Continue</a>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </main>
+        <footer><h3>Bütun haqları qorunur &copy; 2021</h3></footer>
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
